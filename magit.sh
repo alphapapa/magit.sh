@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Copyright (C) 2020  Adam Porter
 
@@ -31,7 +31,7 @@
 
 # * Code:
 
-dependencies=(magit async dash with-editor git-commit transient)
+dependencies=(magit magit-section async dash with-editor git-commit transient)
 
 function load_paths {
     # Echo the "-L PATH" arguments for Emacs.  Since multiple versions
